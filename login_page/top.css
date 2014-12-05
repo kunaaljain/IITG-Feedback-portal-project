@@ -1,0 +1,77 @@
+
+
+#topmenu {
+  float: left;
+  width: 100%;
+  background: #333333;
+  font-size: 93%;
+  line-height: normal;
+  border-bottom: 1px solid #666;
+  padding-left: 250px;
+}
+#topmenu ul {
+  margin: 0;
+  padding: 10px 10px 0 50px;
+  list-style: none;
+}
+#topmenu li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#topmenu a {
+  float: left;
+  background: url("images/tableftf.gif") no-repeat left top;
+  margin: 0;
+  padding: 0 0 0 4px;
+  text-decoration: none;
+}
+#topmenu a span {
+  float: left;
+  display: block;
+  background: url("images/tabrightf.gif") no-repeat right top;
+  padding: 5px 15px 4px 6px;
+  color: #666;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#topmenu a span {
+  float: none;
+}
+/* End IE5-Mac hack */
+#topmenu .active a span,
+#topmenu a:hover span {
+  color: #FFFFFF;
+}
+#topmenu .active a,
+#topmenu a:hover {
+  background-position: 0 -42px;
+}
+#topmenu .active a span,
+#topmenu a:hover span {
+  background-position: 100% -42px;
+}
+
+
+.logo  {
+   
+    height: 100px;
+    left: -55px;
+    float: left;
+    position: left;
+    top: -48px;
+    width: 110px;
+   z-index: 20;
+}
+ #header h1 {
+margin: 0;
+float:left;
+font-size: 36px;
+border: solid 1px;
+  background-color:"BLUE";
+}
+
+#bg {
+  height: 110px;
+   width: 100%;
+    background: url("images/top.jpg");
+}

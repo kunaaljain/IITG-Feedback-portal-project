@@ -1,0 +1,43 @@
+
+<!--
+By Kunaal Jain
+Copyrighted
+-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link href="css/examples.css" rel="stylesheet" type="text/css"/>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="jquery.barrating.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+                $('#example-g').barrating('show', {
+                    showSelectedRating:true,
+                    reverse:false
+                });
+
+        });
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="content">
+
+<div class="input select rating-g">
+    <label for="example-g">Reversed rating:</label>
+    <select id="example-g" name="q1">
+        <option value="1">Strongly Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="3">Neither Agree or Disagree</option>
+        <option value="4">Agree</option>
+        <option value="5">Strongly Agree</option>
+    </select>
+</div>
+        </div>
+    </div>
+</body>
+</html>
